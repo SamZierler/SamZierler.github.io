@@ -1,0 +1,26 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.sidebar-wrapper {
+    grid-column: span 3;
+    order: 2;
+}
+
+.main-wrapper {
+    grid-column: span 7;
+    padding: 60px;
+}
+
+.sidebar-wrapper .avatar {
+    border-color: rgb(48, 52, 54);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 1px;
+    max-width: 100px;
+    margin-bottom: 15px;
+    border: 0px solid #fff;
+    border-radius: 100%;
+}
