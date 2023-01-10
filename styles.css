@@ -1,3 +1,8 @@
+body {
+    padding: 30px;
+    -moz-osx-font-smoothing: grayscale;
+}
+
 .wrapper {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
