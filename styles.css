@@ -8,7 +8,7 @@
 
 .sidebar-wrapper {
     grid-column: span 3;
-    order: 2;
+    /* order: 2; */
 }
 
 .main-wrapper {
